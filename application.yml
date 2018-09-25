@@ -4,11 +4,11 @@ spring:
     - dev
 ---
 spring:
-    profiles:dev
+    profiles: dev
     application:
-    name:microspringcloud-config-dev
+    name: microspringcloud-config-dev
 ---
 spring:
-    profiles:test
+    profiles: test
     application:
-    name:microspringcloud-config-test
+    name: microspringcloud-config-test
